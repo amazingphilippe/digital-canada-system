@@ -1,18 +1,15 @@
-# Building A Design System With CSS
+# Design System With CSS
 
-This is your **main project** for this workshop! Let’s take a look around 👇
-
-The main project consists of the following tech:
+The design system consists of the following tech:
 
 - [Sass](https://sass-lang.com/)
 - [Fractal](http://fractal.build/)
 - [HTML (Nunjucks)](https://mozilla.github.io/nunjucks/)
 
-All of the HTML has been pre-written for you (minus some utility classes etc.) and the project structure for [Sass](https://sass-lang.com/) and [Gorko](https://github.com/hankchizljaw/gorko) is also set up.
 
 ## Getting started
 
-Unzip the project files and using your terminal, run the following **inside the project folder**:
+Clone or dowload. Run the following **inside the project folder**:
 
 ```bash
 npm install
@@ -45,4 +42,4 @@ We’re using [Sass](https://sass-lang.com/) and [Gorko](https://github.com/hank
 
 ### JS
 
-You’ll be happy to know we’re not writing any JS in this workshop!
+There are 0 lines of JS in this design system. BYOJS
