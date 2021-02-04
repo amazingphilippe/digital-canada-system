@@ -1,0 +1,77 @@
+{
+    "context": {
+        "previewBG": "bg-dark",
+        "lists": [
+            {
+                "theme": "theme-tools",
+                "items": [
+                    {
+                        "name": "Tools and resources",
+                        "url": "#"
+                    },
+                    {
+                        "name": "Accessibility",
+                        "url": "#"
+                    },
+                    {
+                        "name": "Past projects",
+                        "url": "#"
+                    }
+                ]
+            },
+            {
+                "theme": "theme-career",
+                "items": [
+                    {
+                        "name": "Meet the team",
+                        "url": "#"
+                    },
+                    {
+                        "name": "Our values",
+                        "url": "#"
+                    }
+                ]
+            },
+            {
+                "theme": "theme-primary",
+                "items": [
+                    {
+                        "name": "Contact us",
+                        "url": "#"
+                    },
+                    {
+                        "name": "Newsletter",
+                        "url": "#"
+                    }
+                ]
+            },
+            {
+                "theme": "",
+                "items": [
+                    {
+                        "name": "Roadmap to 2025",
+                        "url": "#"
+                    },
+                    {
+                        "name": "Begining the conversation",
+                        "url": "#"
+                    }
+                ]
+            }
+        ],
+        "wmmsFooter": [
+            {
+                "name": "Terms and conditions",
+                "url": "#"
+            },
+            {
+                "name": "Privacy",
+                "url": "#"
+            },
+            {
+                "name": "Visit Canada.ca",
+                "url": "#"
+            }
+        ]
+    }
+}

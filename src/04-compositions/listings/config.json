@@ -1,0 +1,38 @@
+{
+    "context": {
+        "previewBG": "bg-light",
+        "cta": {
+            "button": {
+                "text": "View past projects",
+                "url": "#"
+            },
+            "theme": "theme-secondary"
+        },
+        "list": [
+            {
+                "name": "COVID Alert",
+                "url": "#",
+                "summary": "Canada’s exposure notification app and server to notify people of exposures while preserving privacy. ",
+                "image": "/images/home/App.png"
+            },
+            {
+                "name": "COVID Alert portal",
+                "url": "#",
+                "summary": "In support of the COVID Alert app, our portal team designed, built and manages a portal for healthcare workers to generate keys for people who test positive for COVID-19.",
+                "image": "/images/home/Portal.png"
+            },
+            {
+                "name": "GC Notify",
+                "url": "#",
+                "summary": "A platform product to help federal departments send messages. ",
+                "image": "/images/home/Notify.jpg"
+            },
+            {
+                "name": "GC Forms",
+                "url": "#",
+                "summary": "A platform product that will help federal departments create and publish online forms.",
+                "image": "/images/home/Forms.png"
+            }
+        ]
+    }
+}

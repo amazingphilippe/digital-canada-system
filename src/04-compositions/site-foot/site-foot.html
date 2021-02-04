@@ -1,0 +1,27 @@
+<footer role="contentinfo" class="site-foot">
+  <div class="region bg-gray-dark">
+    <div class="site-foot__links wrapper">
+      {% for list in lists %}
+        <ul role="list" class="site-foot__list {{ list.theme }} flow">
+          {% for item in list.items %}
+            <li><a class="color-light" href="{{ item.url }}">{{ item.name }}</a></li>
+          {% endfor %}
+        </ul>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="site-foot__fip bg-dark">
+    <div class="wrapper split-pair">
+      <nav class="">
+        <ul class="wmms-nav" role="list">
+          {% for item in wmmsFooter %}
+            <li>
+              <a href="{{ item.url }}">{{ item.name }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+      {% render '@wmms' %}
+    </div>
+  </div>
+</footer>

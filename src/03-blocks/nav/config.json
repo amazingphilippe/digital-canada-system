@@ -1,0 +1,23 @@
+{
+  "context": {
+    "previewBG": "bg-dark",
+    "items": [
+      {
+        "text": "Work with us",
+        "url": "#"
+      },
+      {
+        "text": "Participate in research",
+        "url": "#"
+      },
+      {
+        "text": "Careers",
+        "url": "#"
+      },
+      {
+        "text": "Blog",
+        "url": "#"
+      }
+    ]
+  }
+}

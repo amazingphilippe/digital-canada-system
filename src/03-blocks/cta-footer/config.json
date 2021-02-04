@@ -1,0 +1,11 @@
+{
+    "context": {
+        "previewBG": "bg-light",
+        "button": { 
+            "text": "Visit our blog",
+            "url": "#"
+        },
+        "title": "Learn more about how we work",
+        "summary": "Visit our blog, where we share stories and learnings from our work. "
+    }
+}

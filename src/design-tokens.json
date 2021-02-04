@@ -1,0 +1,37 @@
+{
+  "colors": {
+    "dark": "#000000",
+    "light": "#f8f8f8",
+    "primary": "#FFCC33",
+    "secondary": "#004986",
+    "tools": "#066169",
+    "blog": "#FF88AA",
+    "career": "#6B3C18",
+    "career-shade": "#492910",
+    "team": "#62466B",
+    "newsletter": "#115740",
+    "newsletter-shade": "#0D402F",
+    "gray-light": "#E1E4E7",
+    "gray-medium": "#848C8D",
+    "gray-dark": "#232323",
+    "white": "#fff",
+    "error": "#E83A22"
+  },
+  "fonts": {
+    "base": "'Source Sans Pro', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
+    "serif": "serif"
+  },
+  "sizes": {
+    "100": 4,
+    "200": 8,
+    "300": 12,
+    "400": 16,
+    "500": 20,
+    "600": 24,
+    "700": 28,
+    "800": 32,
+    "900": 36,
+    "1000": 48,
+    "major": 64
+  }
+}

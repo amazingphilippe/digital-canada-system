@@ -1,0 +1,28 @@
+<article class="[ sign-up ] [ bg-newsletter color-light ]">
+  <div class="[ split-pair ]">
+    <div class="[ intro ] [ flow split-half ]">
+      <h2 class="[ heading ] [ color-gray-light ]" data-type="primary">{{ title }}</h2>
+      <p class="text-500">{{ summary }}</p>
+    </div>
+    <div class="[ sign-up__form ] [ flow split-half ]">
+      <div class="field" data-layout="combo">
+        <label class="color-light" for="{{ field.id }}">{{ field.label }}</label>
+        <div class="combo">
+          <input
+            class="color-light border-primary bg-newsletter-shade"
+            type="{{ field.type }}"
+            id="{{ field.id }}"
+          />
+          <a href="{{ button.url }}" class="button theme-primary">{{ button.text }}{% render '@icon--arrow-right-fill' %}</a>
+        </div>
+      </div>
+      
+      <div class="flow" data-flow="inline">
+      {% for link in links %}
+        <a href="{{ link.url }}" class="color-light">{{ link.name }}</a>
+      {% endfor %}
+      <div>
+    </div>
+    
+  </div>
+</article>

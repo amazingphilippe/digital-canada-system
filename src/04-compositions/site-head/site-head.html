@@ -1,0 +1,16 @@
+<header role="banner" class="site-head flow region bg-dark">
+  <div class="site-head__fip wrapper bg-dark split-pair">
+    {% render '@fip' %}
+    <section class="lang-toggle">
+        <h2 class="visually-hidden">Language selection</h2>
+        <div id="lang" class="lang">
+            <a href="#" class="color-white" lang="fr">Français</a>
+        </div>
+    </section>
+  </div>
+  <hr/>
+  <div class="site-head__cds wrapper bg-dark split-pair">
+    {% render '@cds' %}
+    {% render '@nav' %}
+  </div>
+</header>

@@ -1,0 +1,25 @@
+{
+    "context": {
+        "previewBG": "bg-white",
+        "name": "Philippe Caron",
+        "role": "Interaction designer",
+        "headshot": "/images/team/Philippe-Caron.jpg",
+        "social": [
+            {
+                "url": "#",
+                "icon": "@@icon--github-fill",
+                "label": "Github"
+            },
+            {
+                "url": "#",
+                "icon": "@@icon--twitter-fill",
+                "label": "Twitter"
+            },
+            {
+                "url": "#",
+                "icon": "@@icon--mail-fill",
+                "label": "E-mail"
+            }
+        ]
+    }
+}

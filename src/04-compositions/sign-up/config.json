@@ -1,0 +1,26 @@
+{
+  "context": {
+    "previewBG": "bg-light",
+    "title": "Subscribe to our newsletter!",
+    "summary": "Sign up to our mailing list for information on recruitment, project updates, and new posts from the CDS blog.",
+    "button": {
+      "text": "Subscribe",
+      "url": "#"
+    },
+    "links": [
+      {
+        "name": "Read the newsletter",
+        "url": "#"
+      },
+      {
+        "name": "View privacy notice",
+        "url": "#"
+      }
+    ],
+    "field": {
+      "type": "email",
+      "id": "email",
+      "label": "Email address"
+    }
+  }
+}

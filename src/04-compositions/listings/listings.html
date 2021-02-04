@@ -1,0 +1,14 @@
+<section class="listings">
+    {% for listing in list %}
+        <article class="listing flow">
+            <img class="listing__image" src="{{ listing.image }}"/>
+            <a href="{{ listing.url }}" class="link">
+                <h3 class="heading" data-type="tertiary">{{ listing.name }}</h3>
+            </a>
+            <p class="">{{ listing.summary }}</p>
+        </article>
+    {% endfor %}
+    <article class="cta {{ cta.theme }}">
+        <a class="button cta__link {{ theme }}" href="{{ cta.button.url }}">{{ cta.button.text }}{% render '@icon--arrow-right-fill' %}</a>
+    </article>
+</section>
